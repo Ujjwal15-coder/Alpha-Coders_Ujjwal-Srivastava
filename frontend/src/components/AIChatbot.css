@@ -288,6 +288,13 @@
   cursor: not-allowed;
 }
 
+@media (max-width: 768px) {
+  .chatbot-fab {
+    bottom: 5.5rem;
+    right: 1.2rem;
+  }
+}
+
 @media (max-width: 480px) {
   .chatbot-window {
     width: 100%;

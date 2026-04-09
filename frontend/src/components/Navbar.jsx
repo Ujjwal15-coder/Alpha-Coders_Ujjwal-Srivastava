@@ -124,9 +124,11 @@ const Navbar = () => {
           </button>
         )}
 
-        <button onClick={toggleTheme} className="nav-item" style={{ background: 'transparent', border: 'none', cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center' }}>
-          {isLightMode ? <Moon size={16} className="nav-icon" /> : <Sun size={16} className="nav-icon" />}
-        </button>
+        {!mobileMenuOpen && (
+          <button onClick={toggleTheme} className="nav-item" style={{ background: 'transparent', border: 'none', cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center' }}>
+            {isLightMode ? <Moon size={16} className="nav-icon" /> : <Sun size={16} className="nav-icon" />}
+          </button>
+        )}
 
         <Link to="/help" className="nav-item" onClick={closeMobileMenu}>
           <HelpCircle size={16} className="nav-icon" /> Help
