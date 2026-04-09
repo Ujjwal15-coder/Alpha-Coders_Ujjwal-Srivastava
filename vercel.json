@@ -3,15 +3,11 @@
     "frontend": {
       "entrypoint": "frontend",
       "routePrefix": "/",
-      "framework": "vite",
-      "installCommand": "npm install",
-      "buildCommand": "npm run build",
-      "outputDirectory": "dist"
+      "framework": "vite"
     },
     "backend": {
       "entrypoint": "backend",
-      "routePrefix": "/_/backend",
-      "installCommand": "npm install"
+      "routePrefix": "/_/backend"
     }
   }
 }
