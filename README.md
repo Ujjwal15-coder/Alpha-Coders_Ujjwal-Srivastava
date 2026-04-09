@@ -11,6 +11,14 @@
 
 ---
 
+## 🌐 Live Demo
+
+🚀 Experience NeighbourLink in action:
+
+👉 **https://neighbourhub-1.onrender.com/**
+
+---
+
 ## 🆔 Team Information
 
 * **Team Name:** Alpha Coders
@@ -53,32 +61,18 @@ NeighbourLink provides:
 
 🚀 Actively being built during **Kalpathon Hackathon**
 
-| Module               | Status         |
-| -------------------- | -------------- |
-| Frontend UI          | ✅ Done        |
-| Backend APIs         | 🚧 Done        |
-| Authentication       | ⏳ Done        |
-| Database Integration | ⏳ Done        |
-
----
-
-## 👨‍💻 Team Alpha Coders
-
-### 👑 Team Leader
-
-* **Ujjwal Srivastava - Full Stack Developer**
-
-### 🤝 Team Members
-
-* Shashank Rai – Frontend Developer
-* Shubham Shukla – Backend Developer
-* Somnath Yadav – Database & API Engineer
+| Module               | Status |
+| -------------------- | ------ |
+| Frontend UI          | ✅ Done |
+| Backend APIs         | ✅ Done |
+| Authentication       | ✅ Done |
+| Database Integration | ✅ Done |
 
 ---
 
 ## ✨ Key Features
 
-* 🔐 Authentication (JWT-based)
+* 🔐 JWT-based Authentication
 * 🔍 Smart AI Search
 * 📅 Booking System
 * 📍 Real-time Tracking
@@ -113,7 +107,7 @@ Alpha-Coders_Ujjwal-Srivastava/
 
 ## ⚙️ Installation & Setup
 
-### 🔹 Backend
+### 🔹 Backend Setup
 
 ```bash
 cd backend
@@ -121,12 +115,29 @@ npm install
 npm start
 ```
 
-### 🔹 Frontend
+### 🔹 Frontend Setup
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the backend folder and add:
+
+```env
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+GOOGLE_CLIENT_ID=your_google_client_id
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+RAZORPAY_KEY_ID=your_key
+RAZORPAY_KEY_SECRET=your_secret
 ```
 
 ---
@@ -140,6 +151,20 @@ npm run dev
 
 ---
 
+## 👨‍💻 Team Alpha Coders
+
+### 👑 Team Leader
+
+* **Ujjwal Srivastava – Full Stack Developer**
+
+### 🤝 Team Members
+
+* Shashank Rai – Frontend Developer
+* Shubham Shukla – Backend Developer
+* Somnath Yadav – Database & API Engineer
+
+---
+
 ## 🔗 Repository
 
 👉 https://github.com/Ujjwal15-coder/Alpha-Coders_Ujjwal-Srivastava
@@ -149,5 +174,7 @@ npm run dev
 ## 💬 Final Note
 
 🔥 Built with innovation during **Kalpathon Hackathon**
+
+💡 Empowering local communities with AI-driven service discovery
 
 🚀 *Team Alpha Coders is ready to deliver impact!*
